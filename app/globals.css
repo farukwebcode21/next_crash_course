@@ -141,6 +141,38 @@ body {
 .courses .card h2 {
   margin-bottom: 0;
 }
+/* Back Btn */
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0058b7;
+  color: #fff;
+}
+
+.btn-back {
+  display: inline-block;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 1.3rem;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
